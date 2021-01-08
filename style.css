@@ -1,0 +1,31 @@
+body {
+  background-color: WhiteSmoke;
+  color: DarkSlateBlue;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+header {
+  color: rbg(44, 44, 44);
+  background-color: yellow;
+}
+
+section {
+  color: blue;
+  background-color: grey;
+}
+
+p {
+  color: black;
+}
+
+footer {
+  color: black;
+  background-color: aqua;
+}
