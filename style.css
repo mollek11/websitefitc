@@ -1,10 +1,12 @@
 body {
   background-color: WhiteSmoke;
   color: DarkSlateBlue;
+  font-family: 'East Sea Dokdo', cursive;
 }
 
 h1 {
   color: red;
+  font-family: Helvetica, Arial;
 }
 
 h2 {
