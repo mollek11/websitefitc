@@ -1,7 +1,10 @@
+/* Website styles */
+
 body {
   background-color: WhiteSmoke;
   color: DarkSlateBlue;
-  font-family: 'East Sea Dokdo', cursive, Arial}
+  font-family: 'East Sea Dokdo', cursive;
+}
 
 h1 {
   color: red;
