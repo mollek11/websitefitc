@@ -1,18 +1,36 @@
 /* Website styles */
 
+* {
+  /* font-size: 100%; */
+  font-family: helvetica, arial;
+}
+
 body {
   background-color: WhiteSmoke;
   color: DarkSlateBlue;
-  font-family: 'East Sea Dokdo', cursive;
-}
+  /* font-family: 'East Sea Dokdo', cursive; */
+  /* font-weight: bold; */
+ }
 
 h1 {
   color: red;
   font-family: Helvetica, Arial;
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
 }
 
 h2 {
   color: green;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: oblique;
+  text-align: right;
+}
+
+h3 {
+  font-size: 18px;
+  font-style: normal;
 }
 
 header {
@@ -20,16 +38,37 @@ header {
   /* background-color: yellow; */
 }
 
-section {
-  color: blue;
+section p {
+  color: red;
+  font-size: 24pt;
   /* background-color: grey; */
 }
 
 p {
   color: black;
+  /* font-size: 24px; */
+  line-height: 2;
+  text-align: justify;
 }
 
 footer {
   color: black;
   background-color: aqua;
+  text-decoration: underline;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: green;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
 }
