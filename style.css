@@ -17,12 +17,12 @@ h2 {
 
 header {
   color: rbg(44, 44, 44);
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 section {
   color: blue;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 p {
