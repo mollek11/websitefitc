@@ -14,8 +14,31 @@ body {
   color: DarkSlateBlue;
   /* font-family: 'East Sea Dokdo', cursive; */
   /* font-weight: bold; */
-  margin: 50px;
+  /* margin: 50px; */
+  background-image: url(images/background.png);
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
  }
+
+ .banner {
+   height:350px;
+   background-image: url(images/banner.jpg);
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 20px;
+   opacity:0.6;
+ }
+
+.caption {
+  /* color: black; */
+  text-align:center;
+  font-weight:bold;
+  margin-top: -200px;
+  margin-bottom: 200px;
+  position: relative;
+  color: black;
+  font-weight: bold;
+}
 
 h1 {
   color: red;
@@ -43,6 +66,8 @@ header {
   /* background-color: yellow; */
   border-bottom: 2px solid grey;
   margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 section p {
@@ -127,8 +152,22 @@ a img {
   color: red;
   padding: 40px;
   text-align: center;
+  background-image: url(images/bush.png);
+  background-repeat: repeat;
 }
 
 #ordered-list {
   color: red;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url(images/bush.png);
+  background-repeat: repeat;
+}
+
+.container2 {
+  max-width: 80%;
+  margin: 0 auto;
 }
