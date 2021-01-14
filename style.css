@@ -122,3 +122,13 @@ a img {
   font-size: 48px;
   text-decoration: underline;
 }
+
+.section1 p {
+  color: red;
+  padding: 40px;
+  text-align: center;
+}
+
+#ordered-list {
+  color: red;
+}
